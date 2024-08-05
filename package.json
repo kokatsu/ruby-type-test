@@ -4,12 +4,14 @@
     "lint": "biome check .",
     "lint:fix": "biome check . --write",
     "build": "bun bun.config.js",
-    "build:css": "tailwindcss -i ./app/assets/stylesheets/application.tailwind.css -o ./app/assets/builds/application.css --minify"
+    "build:css": "tailwindcss -i ./app/assets/stylesheets/application.tailwind.css -o ./app/assets/builds/application.css --minify",
+    "openapi": "openapi-generator-cli generate -g ruby-on-rails -i pokeapi/openapi.yml -o ."
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
     "@commitlint/cli": "19.3.0",
     "@commitlint/config-conventional": "19.2.2",
+    "@openapitools/openapi-generator-cli": "^2.13.4",
     "@types/bun": "latest",
     "lefthook": "1.7.11"
   },
