@@ -68,3 +68,13 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "dotenv", "~> 3.1"
+
+gem "rubocop", "~> 1.65", :groups => [:development, :test], :require => false
+
+gem "rubocop-rspec", "~> 3.0", :groups => [:development, :test]
+
+gem "typeprof", "~> 0.21.11", :groups => [:development, :test]
+
+gem "rspec", "~> 3.13", :groups => [:development, :test]

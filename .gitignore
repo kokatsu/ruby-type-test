@@ -214,3 +214,5 @@ dist
 !/tmp/storage/.keep
 
 /public/assets
+
+vendor/bundle
