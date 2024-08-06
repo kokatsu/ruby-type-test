@@ -2,5 +2,9 @@ AllCops:
   NewCops: enable
   SuggestExtensions: false
 
+Metrics/LineLength:
+  Max: 120
+  AllowedPatterns: ['(\A|\s)#']
+
 Style/Documentation:
   Enabled: false
