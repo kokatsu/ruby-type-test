@@ -9,14 +9,14 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.8.3",
-    "@commitlint/cli": "19.3.0",
+    "@commitlint/cli": "19.4.0",
     "@commitlint/config-conventional": "19.2.2",
     "@openapitools/openapi-generator-cli": "^2.13.5",
-    "@types/bun": "latest",
-    "lefthook": "1.7.11"
+    "@types/bun": "^1.1.6",
+    "lefthook": "1.7.14"
   },
   "peerDependencies": {
-    "typescript": "^5.5.2"
+    "typescript": "^5.5.4"
   },
   "dependencies": {
     "@hotwired/stimulus": "^3.2.2",
